@@ -46,14 +46,6 @@ a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background-color: black;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-}
-
 .normal {
     background-color: white;
     color: black;
@@ -64,6 +56,19 @@ footer {
     color: white;
 }
 
+#img1 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+}
+
+#img2 {
+    background-image:url(../imagens/background002.jpg);
+}
+
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.321);
+    width: 400px;
+}
 section {
     padding-left:3vh;
     padding-top: 10vh;
@@ -73,7 +78,14 @@ section {
     font-size:2em;
 }
 
-.imagem p {
-    background-color: rgba(0, 0, 0, 0.321);
-    width: 400px;
+section p {
+    padding-bottom: 1em;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
 }
