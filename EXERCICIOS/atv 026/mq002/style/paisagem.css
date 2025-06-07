@@ -3,3 +3,7 @@
 /*
 Configurações paisagem
 */
+
+body {
+    background: black url(../imagens/cev-landscape.jpg) left bottom/cover no-repeat scroll;
+}

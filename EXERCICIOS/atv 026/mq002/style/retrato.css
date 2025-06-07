@@ -3,3 +3,6 @@
 /*
 Configurações retrato
 */
+body {
+    background: black url(../imagens/cev-portrait.jpg) center bottom/cover no-repeat scroll;
+}
