@@ -8,12 +8,13 @@
         .container {
             background-color: lightcoral;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap-reverse;
         }
         .item {
             background-color: lightblue;
             border: 1px solid black;
-            flex: auto;
+            padding: 10px;
             text-align: center;
         }        
     </style>
@@ -25,7 +26,6 @@
         <div class="item">C</div>
         <div class="item">D</div>
         <div class="item">E</div>
-
     </div>
 
 </body>
