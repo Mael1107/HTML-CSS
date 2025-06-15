@@ -1,12 +1,23 @@
 @charset "UTF-8";
 
 @media screen and (max-width:650px) {
+
     main {
-        background-color: red;
+        max-width: 550px;
     }
 
-    header nav {
+    header, header nav {
         flex-flow: column nowrap;
-        justify-content: center;
+        align-items: stretch;
     }
+
+    header h1 {
+        align-self: center;
+        flex: 0 0 50px;
+    }
+
+
+
+
+
 }
