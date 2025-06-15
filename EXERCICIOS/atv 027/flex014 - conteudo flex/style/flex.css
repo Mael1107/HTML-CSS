@@ -27,10 +27,12 @@ body {
     padding: 20px;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: ;
 }
 
 article {
     border: 2px dashed green;
 }
 
+.media-text {
+    display: flex;
+}
