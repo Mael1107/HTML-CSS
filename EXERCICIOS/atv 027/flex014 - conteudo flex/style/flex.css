@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.peoples {
+    width: 400px;
+}
+
+header, .normal  {
+    padding: 20px;
+}
+
+p, h1, h2 { 
+    margin-bottom: 10px;
+    text-align: justify;
+}
+body {
+    font: normal normal 1em/1.5em Arial, Helvetica, sans-serif;
+}
+
+.flex-content {
+    background-color: rgb(195, 195, 195);
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: ;
+}
+
+article {
+    border: 2px dashed green;
+}
+
