@@ -35,4 +35,18 @@ article {
 
 .media-text {
     display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.text-media {
+    display: flex;
+}
+
+div.text {
+    border: 1px solid red;
+    flex: 1 1 500px;
+}
+
+div.media {
+    border: 1px solid blue;
 }
