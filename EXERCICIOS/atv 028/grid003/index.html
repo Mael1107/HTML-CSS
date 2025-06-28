@@ -12,12 +12,12 @@
         div.container {
             border: 3px solid blue;
             display: grid;
-            grid-template: repeat(4, 100px) / repeat(3, auto);
+            grid-template: repeat(3, 80px) / 1fr 2fr 1fr;
             gap: 10px;
             place-items: stretch stretch;
             place-content: stretch stretch;
-            
-
+            grid-auto-rows: 80px;
+            grid-auto-flow: row;
         }
 
         div.item {
@@ -36,6 +36,10 @@
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
     </div>
 </body>
 </html>
